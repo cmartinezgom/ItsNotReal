@@ -15,7 +15,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float lvFear = 100.0f;
 
     [Header("battery")]
-    [SerializeField] private int battery = 10;
+    [SerializeField] private int battery = 4;
+    [SerializeField] private int nRecharges = 0;
 
 // Declaro los GETs y los SETs para que las variables sean accesibles desde otras funciones
     #region GETTERS Y SETTERS
@@ -60,9 +61,18 @@ public class PlayerStats : MonoBehaviour
     {
         return battery;
     }
-    public void SetSpeed(int battery)
+    public void SetBattery(int battery)
     {
         this.battery = battery;
+    }
+
+    public int GetRecharges()
+    {
+        return nRecharges;
+    }
+    public void SetRecharges(int nRecharges)
+    {
+        this.nRecharges = nRecharges;
     }
     
     #endregion

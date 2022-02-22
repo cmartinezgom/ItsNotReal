@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 60b3de3fcef79d14c9e10d2a446569bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6832447724551755982
+    second: SpriteGwenDeVerdad_0
+  - first:
+      213: -2238764194155272513
+    second: SpriteGwenDeVerdad_1
+  - first:
+      213: 1319006519666270038
+    second: SpriteGwenDeVerdad_2
+  - first:
+      213: 693955908037440700
+    second: SpriteGwenDeVerdad_3
+  - first:
+      213: 4585807785699292936
+    second: SpriteGwenDeVerdad_4
+  - first:
+      213: -9125876000737532913
+    second: SpriteGwenDeVerdad_5
+  - first:
+      213: -4792621583245611821
+    second: SpriteGwenDeVerdad_6
+  - first:
+      213: -6198198226700314536
+    second: SpriteGwenDeVerdad_7
+  - first:
+      213: 8394320142433685047
+    second: SpriteGwenDeVerdad_8
+  - first:
+      213: 4645903469437933993
+    second: SpriteGwenDeVerdad_9
+  - first:
+      213: -4629497365877735760
+    second: SpriteGwenDeVerdad_10
+  - first:
+      213: 864665630461331344
+    second: SpriteGwenDeVerdad_11
+  - first:
+      213: 6774915589808008577
+    second: SpriteGwenDeVerdad_12
+  - first:
+      213: 5985380569290658814
+    second: SpriteGwenDeVerdad_13
+  - first:
+      213: 7578011731871493082
+    second: SpriteGwenDeVerdad_14
+  - first:
+      213: -3205863156779059491
+    second: SpriteGwenDeVerdad_15
+  - first:
+      213: 2187669572213535197
+    second: SpriteGwenDeVerdad_16
+  - first:
+      213: 2193215310483441410
+    second: SpriteGwenDeVerdad_17
+  - first:
+      213: -7288803398923033600
+    second: SpriteGwenDeVerdad_18
+  - first:
+      213: 5031851002612004205
+    second: SpriteGwenDeVerdad_19
+  - first:
+      213: 2599488718121131291
+    second: SpriteGwenDeVerdad_20
+  - first:
+      213: 2458865714498636802
+    second: SpriteGwenDeVerdad_21
+  - first:
+      213: 317214078480425007
+    second: SpriteGwenDeVerdad_22
+  - first:
+      213: 6849889623543540578
+    second: SpriteGwenDeVerdad_23
+  - first:
+      213: 2897780472828175769
+    second: SpriteGwenDeVerdad_24
+  - first:
+      213: -4556840049752173704
+    second: SpriteGwenDeVerdad_25
+  - first:
+      213: 4825435257352489342
+    second: SpriteGwenDeVerdad_26
+  - first:
+      213: 8442839078086105662
+    second: SpriteGwenDeVerdad_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 252
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec85550710bb1de50800000000000000
+      internalID: 6832447724551755982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 252
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6e28fa3df4ee0e0800000000000000
+      internalID: -2238764194155272513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 252
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fd125f07d0e4210800000000000000
+      internalID: 1319006519666270038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 252
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4fa5cb83d61a900800000000000000
+      internalID: 693955908037440700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 252
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807b3da62ef04af30800000000000000
+      internalID: 4585807785699292936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 252
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04e6c7d0206a5180800000000000000
+      internalID: -9125876000737532913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 252
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc66cbff003d7db0800000000000000
+      internalID: -4792621583245611821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 252
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85852126d839bf9a0800000000000000
+      internalID: -6198198226700314536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8aacc1bd9e7470800000000000000
+      internalID: 8394320142433685047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 204
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a95a942790997040800000000000000
+      internalID: 4645903469437933993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 204
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be30428ca8b0cfb0800000000000000
+      internalID: -4629497365877735760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 204
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09703294fc8effb00800000000000000
+      internalID: 864665630461331344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 204
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d23c975d5550e50800000000000000
+      internalID: 6774915589808008577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 204
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef358167ae7501350800000000000000
+      internalID: 5985380569290658814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 204
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb61f525818a2960800000000000000
+      internalID: 7578011731871493082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 204
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6fbadb17c7283d0800000000000000
+      internalID: -3205863156779059491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 156
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1f7b992e92c5e10800000000000000
+      internalID: 2187669572213535197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 156
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207405964bddf6e10800000000000000
+      internalID: 2193215310483441410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 156
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00468892de7f8da90800000000000000
+      internalID: -7288803398923033600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 156
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65b165b3d9b4d540800000000000000
+      internalID: 5031851002612004205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 156
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dde39673d331420800000000000000
+      internalID: 2599488718121131291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 156
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c0417f655af1220800000000000000
+      internalID: 2458865714498636802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 156
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2024911688f66400800000000000000
+      internalID: 317214078480425007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 156
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b62f10252bf0f50800000000000000
+      internalID: 6849889623543540578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995acf7acfbf63820800000000000000
+      internalID: 2897780472828175769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 107
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8739f303e1ad2c0c0800000000000000
+      internalID: -4556840049752173704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 107
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e790421ecc367f240800000000000000
+      internalID: 4825435257352489342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteGwenDeVerdad_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 107
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3adb11d86dfa2570800000000000000
+      internalID: 8442839078086105662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

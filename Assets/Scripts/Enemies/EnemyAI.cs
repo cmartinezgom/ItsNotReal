@@ -28,7 +28,7 @@ public class EnemyAI : MonoBehaviour
         {
             case EnemyType.Chase:
                 step = stats.GetSpeed() * Time.deltaTime;
-                if (playerDistance >= 0.5f)
+                if (playerDistance >= 1.5f)
                 {
                     transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
                 }

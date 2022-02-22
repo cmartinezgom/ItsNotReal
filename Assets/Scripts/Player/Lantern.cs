@@ -8,29 +8,55 @@ public class Lantern : MonoBehaviour
 
     Vector2 mousePos;
 
-    public Rigidbody2D rb;
+    public Vector2 angles;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float offset;
 
-    // Update is called once per frame
     void Update()
     {
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-
     }
 
     private void FixedUpdate()
     {
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        Vector2 lookDir = mousePos - (Vector2)transform.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + offset;
 
-        if (-140f < angle && angle < -50f)
+        if (gameObject.name.Contains("Left"))
         {
-            rb.rotation = angle;
+            if (angles.x < angle || angle < angles.y)
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            }
+            else
+            {
+                var nearest = angles.x;
+                var A = Mathf.Abs(Mathf.DeltaAngle(angle, angles.x));
+                var B = Mathf.Abs(Mathf.DeltaAngle(angle, angles.y));
+                if (A > B)
+                {
+                    nearest = angles.y;
+                }
+                transform.rotation = Quaternion.Euler(0f, 0f, nearest);
+            }
+        }
+        else
+        {
+            if (angles.x < angle && angle < angles.y)
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            }
+            else
+            {
+                var nearest = angles.x;
+                var A = Mathf.Abs(Mathf.DeltaAngle(angle, angles.x));
+                var B = Mathf.Abs(Mathf.DeltaAngle(angle, angles.y));
+                if (A > B)
+                {
+                    nearest = angles.y;
+                }
+                transform.rotation = Quaternion.Euler(0f, 0f, nearest);
+            }
         }
     }
 }
