@@ -461,10 +461,7 @@ GameObject:
   - component: {fileID: 331774610}
   - component: {fileID: 331774609}
   - component: {fileID: 331774608}
-<<<<<<< Updated upstream
-=======
   - component: {fileID: 331774611}
->>>>>>> Stashed changes
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -520,8 +517,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!114 &331774611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,7 +580,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
->>>>>>> Stashed changes
 --- !u!1 &481169009
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,11 +613,7 @@ RectTransform:
   - {fileID: 1973802441}
   - {fileID: 1836891007}
   m_Father: {fileID: 1382708178}
-<<<<<<< Updated upstream
-  m_RootOrder: 0
-=======
   m_RootOrder: 1
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2106,8 +2096,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888094421}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &945779812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,7 +2231,6 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   fill: {fileID: 1413879618}
->>>>>>> Stashed changes
 --- !u!1 &948757087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,10 +2242,7 @@ GameObject:
   - component: {fileID: 948757090}
   - component: {fileID: 948757089}
   - component: {fileID: 948757088}
-<<<<<<< Updated upstream
-=======
   - component: {fileID: 948757091}
->>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2325,18 +2309,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948757087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-=======
   m_LocalPosition: {x: 0, y: 2, z: -10}
->>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!114 &948757091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2371,7 +2349,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
->>>>>>> Stashed changes
 --- !u!1 &965300512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,17 +2492,11 @@ GameObject:
   - component: {fileID: 1029448356}
   - component: {fileID: 1029448357}
   - component: {fileID: 1029448358}
-<<<<<<< Updated upstream
-  m_Layer: 0
-  m_Name: Player_FX
-  m_TagString: Untagged
-=======
   - component: {fileID: 1029448360}
   - component: {fileID: 1029448359}
   m_Layer: 0
   m_Name: Player_FX
   m_TagString: Player
->>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2614,8 +2585,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
-<<<<<<< Updated upstream
-=======
 --- !u!114 &1029448359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,7 +2615,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.5
->>>>>>> Stashed changes
 --- !u!1 &1168377293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,10 +3860,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-<<<<<<< Updated upstream
-=======
   - {fileID: 945779813}
->>>>>>> Stashed changes
   - {fileID: 481169010}
   - {fileID: 1794539783}
   m_Father: {fileID: 0}
@@ -4052,8 +4017,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404089848}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1413879616
 GameObject:
   m_ObjectHideFlags: 0
@@ -4129,7 +4092,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413879616}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1 &1417965305
 GameObject:
   m_ObjectHideFlags: 0
@@ -4461,8 +4423,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1555154483
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,7 +4498,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555154483}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1 &1685399366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4787,11 +4746,7 @@ MonoBehaviour:
   speed: 4
   sprint: 7
   attack: 2
-<<<<<<< Updated upstream
-  lvFear: 10
-=======
   lvFear: 870
->>>>>>> Stashed changes
   battery: 10
   nRecharges: 0
 --- !u!114 &1787463809
@@ -4813,10 +4768,7 @@ MonoBehaviour:
   down: 0
   right: 0
   run: 0
-<<<<<<< Updated upstream
-=======
   cam: {fileID: 948757089}
->>>>>>> Stashed changes
 --- !u!70 &1787463810
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4920,11 +4872,7 @@ RectTransform:
   - {fileID: 300368593}
   - {fileID: 1466795510}
   m_Father: {fileID: 1382708178}
-<<<<<<< Updated upstream
-  m_RootOrder: 1
-=======
   m_RootOrder: 2
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5143,8 +5091,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836891006}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1934052404
 GameObject:
   m_ObjectHideFlags: 3
@@ -5307,7 +5253,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971044296}
   m_CullTransparentMesh: 1
->>>>>>> Stashed changes
 --- !u!1 &1973802440
 GameObject:
   m_ObjectHideFlags: 0
@@ -5383,8 +5328,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973802440}
   m_CullTransparentMesh: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &2123302679
 GameObject:
   m_ObjectHideFlags: 0
@@ -5452,4 +5395,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes

@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 namespace Packages.Rider.Editor.ProjectGeneration
 {
   internal interface IGUIDGenerator
@@ -6,13 +5,4 @@ namespace Packages.Rider.Editor.ProjectGeneration
     string ProjectGuid(string projectName, string assemblyName);
     string SolutionGuid(string projectName, string extension);
   }
-=======
-namespace Packages.Rider.Editor.ProjectGeneration
-{
-  internal interface IGUIDGenerator
-  {
-    string ProjectGuid(string projectName, string assemblyName);
-    string SolutionGuid(string projectName, string extension);
-  }
->>>>>>> Stashed changes
 }
