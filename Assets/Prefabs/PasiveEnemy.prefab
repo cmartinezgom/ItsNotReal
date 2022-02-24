@@ -4942,6 +4942,15 @@ MonoBehaviour:
   distance: 3
   type: 4
   killParticlesPrefab: {fileID: 6633842015091939756, guid: 660b469f6e3e0a04e97946b5779516b3, type: 3}
+  explodeParticlesPrefab: {fileID: 6633842015091939756, guid: 660b469f6e3e0a04e97946b5779516b3, type: 3}
+  percentPUps: 5
+  prefabsPUps:
+  - {fileID: 2390262897154866342, guid: 6953052bf59b64e4c9163aa4ea926f02, type: 3}
+  - {fileID: 6586666316308328428, guid: 2709cd789747e0640ab2741dcb15583f, type: 3}
+  - {fileID: 721370014568435079, guid: c28bab35f1dc7c24786cedf4a791f6c8, type: 3}
+  - {fileID: 2043970491670438256, guid: 04be7f8049de2524f97d95486c66252b, type: 3}
+  - {fileID: 8201228284960568432, guid: d88ae4488ebeb66469c1fc7823a44376, type: 3}
+  - {fileID: 3645189796489751384, guid: 27ed8b0f75fc4204a9d85f71017c9bdd, type: 3}
 --- !u!114 &5428064176292159698
 MonoBehaviour:
   m_ObjectHideFlags: 0

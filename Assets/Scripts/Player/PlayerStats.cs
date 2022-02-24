@@ -12,11 +12,15 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float attack = 10.0f;
 
     [Header("LoF")]
-    [SerializeField] private float lvFear = 870.0f;
+    [SerializeField] private float lvFear = 0.0f;
+    [SerializeField] private float maxLvFear = 870.0f;
 
     [Header("battery")]
     [SerializeField] private int battery = 4;
     [SerializeField] private int nRecharges = 0;
+
+    public GameObject batteryObj;
+    public GameObject lvlOfFearBar;
 
 // Declaro los GETs y los SETs para que las variables sean accesibles desde otras funciones
     #region GETTERS Y SETTERS
@@ -55,6 +59,19 @@ public class PlayerStats : MonoBehaviour
     public void SetLvFear(float lvFear)
     {
         this.lvFear = lvFear;
+        var lofHUD = lvlOfFearBar.GetComponent<LevelOfFearBar>();
+        lofHUD.SetFear(lvFear, maxLvFear);
+    }
+
+    public float GetMaxLvFear()
+    {
+        return maxLvFear;
+    }
+    public void SetMaxLvFear(float maxLvFear)
+    {
+        this.maxLvFear = maxLvFear;
+        var lofHUD = lvlOfFearBar.GetComponent<LevelOfFearBar>();
+        lofHUD.SetInitialFear(maxLvFear);
     }
 
     public int GetBattery()
@@ -64,6 +81,8 @@ public class PlayerStats : MonoBehaviour
     public void SetBattery(int battery)
     {
         this.battery = battery;
+        var batteryHUD = batteryObj.GetComponent<BatteryBar>();
+        batteryHUD.SetBattery(battery);
     }
 
     public int GetRecharges()
@@ -73,6 +92,8 @@ public class PlayerStats : MonoBehaviour
     public void SetRecharges(int nRecharges)
     {
         this.nRecharges = nRecharges;
+        var batteryHUD = batteryObj.GetComponent<BatteryBar>();
+        batteryHUD.SetExtraBatteries(nRecharges);
     }
     
     #endregion

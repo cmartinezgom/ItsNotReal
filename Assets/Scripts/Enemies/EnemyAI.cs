@@ -28,11 +28,11 @@ public class EnemyAI : MonoBehaviour
         {
             case EnemyType.Chase:
                 step = stats.GetSpeed() * Time.deltaTime;
-                if (playerDistance >= 1.5f)
+                if (playerDistance >= 0f)           // Te persigue hasta que te toque
                 {
                     transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
                 }
-                return;
+                break;
             case EnemyType.Ranged:
                 if (playerDistance <= stats.GetDistance())
                 {
@@ -43,7 +43,7 @@ public class EnemyAI : MonoBehaviour
                     step = stats.GetSpeed() * Time.deltaTime;
                     transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
                 }
-                return;
+                break;
             case EnemyType.Retreat:
                 if (playerDistance <= stats.GetDistance())
                 {
@@ -54,13 +54,13 @@ public class EnemyAI : MonoBehaviour
                 {
 
                 }
-                return;
+                break;
             case EnemyType.Static:
                 return;
             case EnemyType.Pasive:
                 //step = stats.GetSpeed() * Time.deltaTime;
                 //transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
-                return;
+                break;
         }
         //currentState.UpdateState();
     }

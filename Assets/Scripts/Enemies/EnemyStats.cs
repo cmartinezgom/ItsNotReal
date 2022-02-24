@@ -40,6 +40,11 @@ public class EnemyStats : MonoBehaviour
 
     [Header("Particles")]
     [SerializeField] private GameObject killParticlesPrefab;
+    [SerializeField] private GameObject explodeParticlesPrefab;
+
+    [Header("Power-Up")]
+    [SerializeField] private float percentPUps = 5.0f;       // Porcentaje del 5%
+    [SerializeField] private List<GameObject> prefabsPUps = new List<GameObject>();
 
     #region GETTERS Y SETTERS
     public float GetSpeed()
@@ -112,6 +117,7 @@ public class EnemyStats : MonoBehaviour
     }
 
     #endregion
+
     public void Damage(float damage)
     {
         health -= damage;
@@ -138,6 +144,19 @@ public class EnemyStats : MonoBehaviour
     {
         var killParticles = Instantiate(killParticlesPrefab, transform.position, Quaternion.identity);
         killParticles.GetComponent<ParticleSystem>().Play();
+        var rand = Random.Range(0f,100f);
+        if (rand <= 5)     // porcentaje del 5% para testear, luego cambiarlo por la variable de arriba
+        {
+            Debug.Log("Pole");
+            Instantiate(prefabsPUps[Random.Range(0,prefabsPUps.Count)], transform.position, Quaternion.identity);
+        }
+        Destroy(gameObject);
+    }
+
+    public void Explode()
+    {
+        var explodeParticles = Instantiate(explodeParticlesPrefab, transform.position, Quaternion.identity);
+        explodeParticles.GetComponent<ParticleSystem>().Play();
         Destroy(gameObject);
     }
 }
