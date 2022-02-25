@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class PowerUps : MonoBehaviour
 {
@@ -82,6 +83,7 @@ public class PowerUps : MonoBehaviour
         //Deshabilitar PU
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponentInChildren<SpriteRenderer>().enabled = false;
+        GetComponentInChildren<Light2D>().enabled = false;
         GetComponentInChildren<ParticleSystem>().Stop();
 
         //Wait
@@ -109,6 +111,7 @@ public class PowerUps : MonoBehaviour
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         GetComponentInChildren<ParticleSystem>().Stop();
+        GetComponentInChildren<Light2D>().enabled = false;
 
         //Wait
         yield return new WaitForSeconds(durationBot);
@@ -144,6 +147,7 @@ public class PowerUps : MonoBehaviour
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         GetComponentInChildren<ParticleSystem>().Stop();
+        GetComponentInChildren<Light2D>().enabled = false;
 
         //Wait
         //yield return new WaitForSeconds(duration);
@@ -170,6 +174,7 @@ public class PowerUps : MonoBehaviour
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         GetComponentInChildren<ParticleSystem>().Stop();
+        GetComponentInChildren<Light2D>().enabled = false;
 
         //Wait
         //yield return new WaitForSeconds(durati);
@@ -203,6 +208,7 @@ public class PowerUps : MonoBehaviour
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         GetComponentInChildren<ParticleSystem>().Stop();
+        GetComponentInChildren<Light2D>().enabled = false;
 
         //Wait
         yield return new WaitForSeconds(durationR);
@@ -233,6 +239,7 @@ public class PowerUps : MonoBehaviour
         GetComponent<CircleCollider2D>().enabled = false;
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         GetComponentInChildren<ParticleSystem>().Stop();
+        GetComponentInChildren<Light2D>().enabled = false;
 
         //Wait
         yield return new WaitForSeconds(durationBomb);

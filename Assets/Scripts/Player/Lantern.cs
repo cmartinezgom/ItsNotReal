@@ -22,6 +22,7 @@ public class Lantern : MonoBehaviour
         Vector2 lookDir = mousePos - (Vector2)transform.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + offset;
 
+        
         if (gameObject.name.Contains("Left"))
         {
             if (angles.x < angle || angle < angles.y)
@@ -58,6 +59,7 @@ public class Lantern : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0f, 0f, nearest);
             }
         }
+        
     }
 
     // No se como funcionan los angulos, pero se me ha ocurrido para mejorar la jugabilidad que, cuando el personaje este parado (no pulsando WASD) pueda apuntar a donde quiera. Para eso debe calcular el angulo al que esta apuntando, y si es entre 45º y 135º que mire a la derecha (y apunte con la linterna al raton), si es entre 135º y 225º a abajo, entre 225º y 315º a la izquierda y 315º y 45º a arriba
