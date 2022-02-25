@@ -216,8 +216,11 @@ public class PowerUps : MonoBehaviour
         //Reverse effect
         foreach (var fantasma in fantasmas)
         {
-            var stats = fantasma.GetComponent<EnemyStats>();
-            stats.SetSpeed(stats.GetSpeed() / multiplierR);
+            if (fantasma!= null)
+            {
+                var stats = fantasma.GetComponent<EnemyStats>();
+                stats.SetSpeed(stats.GetSpeed() / multiplierR);
+            }
         }
 
         //Quitar powerup
