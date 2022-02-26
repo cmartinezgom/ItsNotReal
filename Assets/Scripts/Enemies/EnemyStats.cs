@@ -33,6 +33,12 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] private float damage = 1.0f;
     //Distancia con respecto al jugador, ya sea para huir o para atacar
     [SerializeField] private float distance = 3.0f;
+    //Proyectiles
+    [SerializeField] private GameObject proyectilePrefab;
+    //Cooldown proyectiles
+    [SerializeField] private float coolDownProyectile;
+    //Fuerza proyectiles
+    [SerializeField] private float bulletForce;
 
     [Header("Type")]
     //Tipo de enemigo
@@ -114,6 +120,21 @@ public class EnemyStats : MonoBehaviour
     public void SetEnemyType(EnemyType type)
     {
         this.type = type;
+    }
+
+    public GameObject GetProyectile()
+    {
+        return proyectilePrefab;
+    }
+
+    public float GetCoolDown()
+    {
+        return coolDownProyectile;
+    }
+
+    public float GetBulletForce()
+    {
+        return bulletForce;
     }
 
     #endregion

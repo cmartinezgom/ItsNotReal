@@ -197,9 +197,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else        // Caso en el que te quedas sin bateria, pero justo coges una carga y la recuperas
         {
+            battery = stats.GetBattery();       // Actualizo la variable battery
             nRecharges = stats.GetRecharges();      // Cogemos la bateria del script PlayerStats
 
-            if (nRecharges > 0)
+            if (nRecharges > 0 && battery == 0)
             {
                 stats.SetBattery(originalBattery);
                 batteryBar.SetBattery(originalBattery);     // Actualizo la variable battery tras recuperar su tamanio original

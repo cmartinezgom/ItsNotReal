@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UI\Dialogue.cs" />
     <Compile Include="Assets\Scripts\PowerUps\PowerUps.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\DestoryOverTime.cs" />
@@ -64,21 +65,22 @@
     <Compile Include="Assets\Scripts\RandomAnimationStart.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\UI\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\UI\LevelOfFearBar.cs" />
     <Compile Include="Assets\Scripts\Player\LightDamage.cs" />
+    <Compile Include="Assets\Scripts\Player\TeleportPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SetterEnemies.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyHealthSystem.cs" />
     <Compile Include="Assets\Scripts\Player\Lantern.cs" />
     <Compile Include="Assets\Scripts\Enemies\FlipEnemyFX.cs" />
     <Compile Include="Assets\Scripts\Player\BrazoSelector.cs" />
+    <Compile Include="Assets\Scripts\UI\NPCDialogue.cs" />
     <Compile Include="Assets\Scripts\Enemies\SpawnEnemies.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UI\BatteryBar.cs" />
-    <Compile Include="Assets\Scripts\UI\DialogueManager.cs" />
-    <Compile Include="Assets\Scripts\UI\Dialogue.cs" />
-    <Compile Include="Assets\Scripts\UI\NPCDialogue.cs" />
-    <Compile Include="Assets\Scripts\Player\TeleportPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ProyectilDamage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

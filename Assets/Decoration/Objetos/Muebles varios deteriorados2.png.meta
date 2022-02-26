@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 3a471b6b6c174d74e821263c4e634bae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 129426719117185365
+    second: Muebles varios deteriorados2_0
+  - first:
+      213: 6988391122301678686
+    second: Muebles varios deteriorados2_1
+  - first:
+      213: -8911680390603502689
+    second: Muebles varios deteriorados2_2
+  - first:
+      213: 6958612034055460139
+    second: Muebles varios deteriorados2_3
+  - first:
+      213: 8416963679758339392
+    second: Muebles varios deteriorados2_4
+  - first:
+      213: 72694697970982595
+    second: Muebles varios deteriorados2_5
+  - first:
+      213: -7248579778115093123
+    second: Muebles varios deteriorados2_6
+  - first:
+      213: -3827460011261924995
+    second: Muebles varios deteriorados2_7
+  - first:
+      213: 1912135831991341250
+    second: Muebles varios deteriorados2_8
+  - first:
+      213: 6209362802749114350
+    second: Muebles varios deteriorados2_9
+  - first:
+      213: 7912031773613799504
+    second: Muebles varios deteriorados2_10
+  - first:
+      213: 8004087776245760923
+    second: Muebles varios deteriorados2_11
+  - first:
+      213: -6764738237340928205
+    second: Muebles varios deteriorados2_12
+  - first:
+      213: -4204387538166206225
+    second: Muebles varios deteriorados2_13
+  - first:
+      213: -3946848874558550315
+    second: Muebles varios deteriorados2_14
+  - first:
+      213: 4491174343865739560
+    second: Muebles varios deteriorados2_15
+  - first:
+      213: 6501977608013339626
+    second: Muebles varios deteriorados2_16
+  - first:
+      213: -7075622012861571475
+    second: Muebles varios deteriorados2_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 167
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5519c615ae0dbc100800000000000000
+      internalID: 129426719117185365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 167
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54f84c13b0cbf060800000000000000
+      internalID: 6988391122301678686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 167
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b834e96e9535480800000000000000
+      internalID: -8911680390603502689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 167
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2552a3d6c4f19060800000000000000
+      internalID: 6958612034055460139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 167
+        width: 23
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d4c5b2fdf0fc470800000000000000
+      internalID: 8416963679758339392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 171
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce5d915173420100800000000000000
+      internalID: 72694697970982595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 167
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dbe5fa81fd76b90800000000000000
+      internalID: -7248579778115093123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 129
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7968b4066122eac0800000000000000
+      internalID: -3827460011261924995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 129
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0d3248865498a10800000000000000
+      internalID: 1912135831991341250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 129
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7826b02961c2650800000000000000
+      internalID: 6209362802749114350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 94
+        width: 36
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058bad57afe2dcd60800000000000000
+      internalID: 7912031773613799504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 69
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93cc2ecc6b341f60800000000000000
+      internalID: 8004087776245760923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 62
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337bacc0a62de12a0800000000000000
+      internalID: -6764738237340928205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 62
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe036815fc307a5c0800000000000000
+      internalID: -4204387538166206225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 73
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de89c12cd9f939c0800000000000000
+      internalID: -3946848874558550315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829277e354bd35e30800000000000000
+      internalID: 4491174343865739560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebdd2f7f2aab3a50800000000000000
+      internalID: 6501977608013339626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muebles varios deteriorados2_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e937e74475ecd90800000000000000
+      internalID: -7075622012861571475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

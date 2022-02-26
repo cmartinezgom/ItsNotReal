@@ -11,6 +11,7 @@ public class EnemyAI : MonoBehaviour
 
     //public IEnemyState currentState;
 
+    float t = 0.0f;
 
     void Start()
     {
@@ -34,9 +35,24 @@ public class EnemyAI : MonoBehaviour
                 }
                 break;
             case EnemyType.Ranged:
-                if (playerDistance <= stats.GetDistance())
+                if (playerDistance <= stats.GetDistance() && playerDistance >= stats.GetDistance() - 2f)
                 {
+                    if (t > stats.GetCoolDown())
+                    {
+                        Shoot();
+                        t = 0.0f;
+                    }
+                }
+                else if (playerDistance <= stats.GetDistance()-2f)
+                {
+                    if (t > stats.GetCoolDown())
+                    {
+                        Shoot();
+                        t = 0.0f;
+                    }
 
+                    step = stats.GetSpeed() * Time.deltaTime;
+                    transform.position = Vector2.MoveTowards(transform.position, player.transform.position, -step);
                 }
                 else
                 {
@@ -63,6 +79,20 @@ public class EnemyAI : MonoBehaviour
                 break;
         }
         //currentState.UpdateState();
+
+        t += Time.deltaTime;
+    }
+
+    void Shoot()
+    {
+        var direction = player.transform.position - transform.position;
+
+        var bullet = Instantiate(stats.GetProyectile(), transform.position, Quaternion.identity);
+
+        var rb = bullet.GetComponent<Rigidbody2D>();
+        //bullet.transform.LookAt(player.transform.position);
+        bullet.transform.right = player.transform.position - bullet.transform.position;
+        rb.AddForce(direction * stats.GetBulletForce(), ForceMode2D.Impulse);
     }
 
 }

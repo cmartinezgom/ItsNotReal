@@ -6,6 +6,9 @@ public class TeleportPlayer : MonoBehaviour
 {
     public Transform destination;
     public GameObject icon;
+    public GameObject candado;
+    public int keysNeeded;
+    public TextMesh textKeys;
 
     public GameObject fadeIn;
     public GameObject fadeOut;
@@ -16,6 +19,19 @@ public class TeleportPlayer : MonoBehaviour
     bool teleporting;
 
     public bool blocked = false;
+
+    private void Start()
+    {
+        if (!blocked)
+        {
+            textKeys.text = "";
+            candado.SetActive(false);
+        }
+        else
+        {
+            textKeys.text = keysNeeded.ToString();
+        }
+    }
 
     void Update()
     {
@@ -67,5 +83,12 @@ public class TeleportPlayer : MonoBehaviour
         player.GetComponent<PlayerMovement>().enabled = true;
         fadeIn.SetActive(false);
         teleporting = false;
+    }
+
+    public void Unlock()
+    {
+        blocked = false;
+        candado.SetActive(false);
+        textKeys.text = "";
     }
 }
