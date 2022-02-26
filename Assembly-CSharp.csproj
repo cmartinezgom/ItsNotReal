@@ -69,12 +69,16 @@
     <Compile Include="Assets\Scripts\Enemies\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyHealthSystem.cs" />
     <Compile Include="Assets\Scripts\Player\Lantern.cs" />
+    <Compile Include="Assets\Scripts\Enemies\FlipEnemyFX.cs" />
     <Compile Include="Assets\Scripts\Player\BrazoSelector.cs" />
     <Compile Include="Assets\Scripts\Enemies\SpawnEnemies.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UI\BatteryBar.cs" />
-    <Compile Include="Assets\Scripts\Enemies\FlipEnemyFX.cs" />
+    <Compile Include="Assets\Scripts\UI\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\UI\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\UI\NPCDialogue.cs" />
+    <Compile Include="Assets\Scripts\Player\TeleportPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
