@@ -15,10 +15,11 @@ public class TeleportPlayer : MonoBehaviour
     bool inRange;
     bool teleporting;
 
-    
+    public bool blocked = false;
+
     void Update()
     {
-        if (inRange)
+        if (inRange && !blocked)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -37,7 +38,10 @@ public class TeleportPlayer : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             player = collision.gameObject;
-            icon.SetActive(true);
+            if (!blocked)
+            {
+                icon.SetActive(true);
+            }
             inRange = true;
         }
     }

@@ -2587,6 +2587,7 @@ MonoBehaviour:
   icon: {fileID: 565231813}
   fadeIn: {fileID: 553997779}
   fadeOut: {fileID: 1279153314}
+  blocked: 0
 --- !u!1 &657726204
 GameObject:
   m_ObjectHideFlags: 0
@@ -13200,6 +13201,7 @@ MonoBehaviour:
   icon: {fileID: 415245825}
   fadeIn: {fileID: 553997779}
   fadeOut: {fileID: 1279153314}
+  blocked: 1
 --- !u!1 &1794539782
 GameObject:
   m_ObjectHideFlags: 0
