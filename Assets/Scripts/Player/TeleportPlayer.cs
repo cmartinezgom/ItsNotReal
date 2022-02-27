@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TeleportPlayer : MonoBehaviour
 {
@@ -51,12 +52,19 @@ public class TeleportPlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        int keyCount = int.Parse(GameObject.Find("KeyCount").GetComponent<Text>().text);
+
         if (collision.CompareTag("Player"))
         {
             player = collision.gameObject;
             if (!blocked)
             {
                 icon.SetActive(true);
+            }else if (keyCount >= keysNeeded)
+            {
+                Unlock();
+                icon.SetActive(true);
+
             }
             inRange = true;
         }
@@ -73,7 +81,10 @@ public class TeleportPlayer : MonoBehaviour
 
     IEnumerator Teleport()
     {
+        FindObjectOfType<AudioManager>().Play("Door");
+        yield return new WaitForSeconds(0.5f);
         fadeOut.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("Transition");
         yield return new WaitForSeconds(1f);
         player.transform.position = destination.position;
         yield return new WaitForSeconds(1f);
@@ -91,4 +102,5 @@ public class TeleportPlayer : MonoBehaviour
         candado.SetActive(false);
         textKeys.text = "";
     }
+
 }

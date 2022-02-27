@@ -92,7 +92,6 @@ public class PlayerMovement : MonoBehaviour
             playerSpeed = stats.GetSprint();
             if (lanternOn)
                 lanternWasOn = true;
-            Debug.Log("Linterna apagada");
             lanternOn = false;
         }
         else
@@ -100,7 +99,6 @@ public class PlayerMovement : MonoBehaviour
             playerSpeed = stats.GetSpeed();
             if (lanternWasOn)
             {
-                Debug.Log("Linterna endendida");
                 lanternOn = true;
                 lanternWasOn = false;
             }
@@ -111,17 +109,18 @@ public class PlayerMovement : MonoBehaviour
 
             if (!lanternOn && battery!=0)       // Si estaba apagada y queda bateria, encenderla
             {
-                Debug.Log("Linterna endendida");
                 lanternOn = true;
             }
             else                                // Si estaba encendida, apagarla
             {
-                Debug.Log("Linterna apagada");
                 lanternOn = false;
             }
         }
 
-        BatteryFunction();      // Funcion que hace que baje la bateria poco a poco
+        if (stats.GetIsRunningDown() == true)
+        {
+            BatteryFunction();      // Funcion que hace que baje la bateria poco a poco
+        }
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
@@ -150,8 +149,6 @@ public class PlayerMovement : MonoBehaviour
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         lookDir = mousePos - (Vector2)transform.position;
         angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-
-        // Debug.Log("angulo: " + angle);
 
         if (-45 < angle && angle <= 45)         // derecha
             lastDirection = 2.0f;
@@ -190,7 +187,6 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else        // Si no, logicamente la luz se apaga
                 {
-                    Debug.Log("Linterna apagada");
                     lanternOn = false;
                 }
             }
@@ -206,12 +202,8 @@ public class PlayerMovement : MonoBehaviour
                 batteryBar.SetBattery(originalBattery);     // Actualizo la variable battery tras recuperar su tamanio original
                 nRecharges--;
                 stats.SetRecharges(nRecharges);   // Guardamos la variable restandole la usada
-                Debug.Log("Linterna encendida");
                 //lanternOn = true;
             }
         }
-        //Debug.Log("La literna esta encencida: " + lanternOn);
-        //Debug.Log("batteryTimer: " + batteryTimer);
-        //Debug.Log("Current battery: " + battery);
     }
 }

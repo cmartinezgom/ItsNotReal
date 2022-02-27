@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum EnemyType
 {
@@ -12,7 +13,9 @@ public enum EnemyType
 
     Ranged,
 
-    Pasive
+    Pasive,
+
+    Boss
 }
 
 public class EnemyStats : MonoBehaviour
@@ -39,6 +42,13 @@ public class EnemyStats : MonoBehaviour
     [SerializeField] private float coolDownProyectile;
     //Fuerza proyectiles
     [SerializeField] private float bulletForce;
+
+    [Header("Boss")]
+    //Arañitas
+    public GameObject spiderPrefab;
+    public GameObject particlesBossPrefab;
+    public float spiderTime;
+    public Animator animator;
 
     [Header("Type")]
     //Tipo de enemigo
@@ -163,21 +173,37 @@ public class EnemyStats : MonoBehaviour
 
     public void Kill()
     {
-        var killParticles = Instantiate(killParticlesPrefab, transform.position, Quaternion.identity);
-        killParticles.GetComponent<ParticleSystem>().Play();
-        var rand = Random.Range(0f,100f);
-        if (rand <= 5)     // porcentaje del 5% para testear, luego cambiarlo por la variable de arriba
+        if (type != EnemyType.Boss)
         {
-            Debug.Log("Pole");
-            Instantiate(prefabsPUps[Random.Range(0,prefabsPUps.Count)], transform.position, Quaternion.identity);
+            var killParticles = Instantiate(killParticlesPrefab, transform.position, Quaternion.identity);
+            killParticles.GetComponent<ParticleSystem>().Play();
+            var rand = Random.Range(0f, 100f);
+            if (rand <= percentPUps)
+            {
+                Instantiate(prefabsPUps[Random.Range(0, prefabsPUps.Count)], transform.position, Quaternion.identity);
+            }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        else
+        {
+            StartCoroutine("WaitAndOutro");
+        }
     }
 
     public void Explode()
     {
         var explodeParticles = Instantiate(explodeParticlesPrefab, transform.position, Quaternion.identity);
         explodeParticles.GetComponent<ParticleSystem>().Play();
+        FindObjectOfType<AudioManager>().Play("Damage");
         Destroy(gameObject);
+    }
+
+    IEnumerator WaitAndOutro()
+    {
+        animator.SetBool("Attack", true);
+        SetSpeed(0f);
+        Instantiate(particlesBossPrefab, transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("OutroCutscene");
     }
 }

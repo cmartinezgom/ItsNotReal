@@ -10,7 +10,14 @@ public class LightDamage : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<EnemyHealthSystem>().Damage(stats.GetAttack()*Time.deltaTime);
+            if (gameObject.name.Contains("Ultimate"))
+            {
+                collision.gameObject.GetComponent<EnemyHealthSystem>().Damage(stats.GetAttack() * 15 * Time.deltaTime);
+            }
+            else
+            {
+                collision.gameObject.GetComponent<EnemyHealthSystem>().Damage(stats.GetAttack() * Time.deltaTime);
+            }
         }
     }
 }

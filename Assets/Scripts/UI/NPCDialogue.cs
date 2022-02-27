@@ -9,7 +9,7 @@ public class NPCDialogue : MonoBehaviour
 
     bool inRange = false;
     bool inDialogue = false;
-
+    
     private void Update()
     {
         if (inRange)

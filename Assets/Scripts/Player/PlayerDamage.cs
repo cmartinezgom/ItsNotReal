@@ -22,29 +22,32 @@ public class PlayerDamage : MonoBehaviour
     void Start()
     {
         stats = gameObject.transform.parent.GetComponent<PlayerStats>();
-        fearCounter = stats.GetLvFear();
+        //fearCounter = stats.GetLvFear();
         maxLvFear = stats.GetMaxLvFear();     // Cogemos el nivel de  inicial del script PlayerStats
         stats.SetMaxLvFear(maxLvFear);        // seteo el lof inicial
     }
 
     void Update()
     {
+        fearCounter = stats.GetLvFear();
 
         if (enemyList.Count != 0)     // Funcion que aumenta el Level of Fear si tiene un fantasma en su rango de vision cercano
         {
-            fearCounter = stats.GetLvFear();
             foreach (EnemyStats enemy in enemyList)
             {
-                if (greaterDamage < enemy.GetDamage())
+                if (enemy != null)
                 {
-                    greaterDamage = enemy.GetDamage();
-                }
+                    if (greaterDamage < enemy.GetDamage())
+                    {
+                        greaterDamage = enemy.GetDamage();
+                    }
 
-                if (Vector3.Distance(enemy.transform.position,transform.position) < 0.1f)
-                {
-                    fearCounter += enemy.GetDamage() * 10;      // De momento hace 10 veces el damage que hace normalmente
-                    stats.SetLvFear(fearCounter);
-                    enemyListExploded.Add(enemy);
+                    if (Vector3.Distance(enemy.transform.position, transform.position) < 0.1f)
+                    {
+                        fearCounter += enemy.GetDamage() * 10;      // De momento hace 10 veces el damage que hace normalmente
+                        stats.SetLvFear(fearCounter);
+                        enemyListExploded.Add(enemy);
+                    }
                 }
             }
 

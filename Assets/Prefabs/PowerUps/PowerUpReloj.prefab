@@ -66,8 +66,8 @@ MonoBehaviour:
   pickUpEffect: {fileID: 2560204133196147484, guid: 050b751620b9afc459a51368d0abfd74, type: 3}
   durationBot: 4
   multiplierBot: 1.2
-  durationR: 4
-  multiplierR: 0.8
+  durationR: 10
+  multiplierR: 0.6
   amountP: 10
   amountL: 4
   durationBomb: 4

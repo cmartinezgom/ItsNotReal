@@ -56,6 +56,8 @@ public class PowerUps : MonoBehaviour
             {
                 StartCoroutine(Bombilla(collision));
             }
+
+            FindObjectOfType<AudioManager>().Play("PowerupPickUp");
         }
 
     }

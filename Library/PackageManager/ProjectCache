@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637814341730000000
-    m_Hash: 2891878843
+      ticks: 637814713923746117
+    m_Hash: 2795294308
   m_LockFileStatus:
     m_FilePath: D:/Unity/FANTASMIKOS/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637814341730000000
-    m_Hash: 1418297632
+      ticks: 637814713923746117
+    m_Hash: 912045104
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

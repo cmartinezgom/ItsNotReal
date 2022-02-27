@@ -18,6 +18,7 @@ public class PlayerStats : MonoBehaviour
     [Header("battery")]
     [SerializeField] private int battery = 4;
     [SerializeField] private int nRecharges = 0;
+    [SerializeField] private bool isRunningDown = false;
 
     public GameObject batteryObj;
     public GameObject lvlOfFearBar;
@@ -94,6 +95,15 @@ public class PlayerStats : MonoBehaviour
         this.nRecharges = nRecharges;
         var batteryHUD = batteryObj.GetComponent<BatteryBar>();
         batteryHUD.SetExtraBatteries(nRecharges);
+    }
+
+    public bool GetIsRunningDown()
+    {
+        return isRunningDown;
+    }
+    public void SetIsRunningDown(bool isRunningDown)
+    {
+        this.isRunningDown = isRunningDown;
     }
     
     #endregion

@@ -13,6 +13,8 @@ public class EnemyAI : MonoBehaviour
 
     float t = 0.0f;
 
+    bool spawningSpiders = false;
+
     void Start()
     {
         stats = GetComponent<EnemyStats>();
@@ -77,6 +79,39 @@ public class EnemyAI : MonoBehaviour
                 //step = stats.GetSpeed() * Time.deltaTime;
                 //transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
                 break;
+            case EnemyType.Boss:
+
+                if (spawningSpiders)
+                {
+                    if (t <= stats.spiderTime)
+                    {
+                        SpawnSpiders();
+                    }
+                    else
+                    {
+                        spawningSpiders = false;
+                        stats.animator.SetBool("Attack", false);
+                        t = 0.0f;
+                    }
+                }
+                else
+                {
+                    if (playerDistance <= stats.GetDistance())
+                    {
+                        if (t > stats.GetCoolDown())
+                        {
+                            spawningSpiders = true;
+                            stats.animator.SetBool("Attack", true);
+                            t = 0.0f;
+                        }
+                    }
+                    else
+                    {
+                        step = stats.GetSpeed() * Time.deltaTime;
+                        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
+                    }
+                }
+                break;
         }
         //currentState.UpdateState();
 
@@ -93,6 +128,15 @@ public class EnemyAI : MonoBehaviour
         //bullet.transform.LookAt(player.transform.position);
         bullet.transform.right = player.transform.position - bullet.transform.position;
         rb.AddForce(direction * stats.GetBulletForce(), ForceMode2D.Impulse);
+    }
+
+    void SpawnSpiders()
+    {
+        var rand = Random.Range(0f, 100f);
+        if (rand < 1f)
+        {
+            Instantiate(stats.spiderPrefab, transform.position + new Vector3(Random.Range(-2.5f, 2.5f), Random.Range(-1f, 1f), 0f), Quaternion.identity);
+        }
     }
 
 }

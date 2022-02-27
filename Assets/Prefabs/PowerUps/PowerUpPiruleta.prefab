@@ -242,7 +242,7 @@ MonoBehaviour:
   multiplierBot: 1.2
   durationR: 4
   multiplierR: 0.8
-  amountP: 10
+  amountP: 50
   amountL: 4
   durationBomb: 4
   multiplierBomb: 1.5

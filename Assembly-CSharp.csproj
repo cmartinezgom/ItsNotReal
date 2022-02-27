@@ -57,20 +57,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UI\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\PowerUps\Key.cs" />
     <Compile Include="Assets\Scripts\PowerUps\PowerUps.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Scripts\DestoryOverTime.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicManager.cs" />
     <Compile Include="Assets\Scripts\RandomAnimationStart.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerDamage.cs" />
+    <Compile Include="Assets\Scripts\Enemies\ProyectilDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UI\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\Credits.cs" />
+    <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\UI\LevelOfFearBar.cs" />
     <Compile Include="Assets\Scripts\Player\LightDamage.cs" />
     <Compile Include="Assets\Scripts\Player\TeleportPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemies\SetterEnemies.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyStats.cs" />
+    <Compile Include="Assets\Scripts\Audio\Sound.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyHealthSystem.cs" />
     <Compile Include="Assets\Scripts\Player\Lantern.cs" />
     <Compile Include="Assets\Scripts\Enemies\FlipEnemyFX.cs" />
@@ -80,7 +87,8 @@
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UI\BatteryBar.cs" />
-    <Compile Include="Assets\Scripts\Enemies\ProyectilDamage.cs" />
+    <Compile Include="Assets\Scripts\UI\IntroDialogue.cs" />
+    <Compile Include="Assets\Scripts\ProgressTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

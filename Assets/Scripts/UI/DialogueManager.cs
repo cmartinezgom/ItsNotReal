@@ -79,4 +79,9 @@ public class DialogueManager : MonoBehaviour
         }
         return false;
     }
+
+    public void ChangeNarrator(string newNarrator)
+    {
+        nameText.text = newNarrator;
+    }
 }

@@ -16,10 +16,7 @@ public class EnemyHealthSystem : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Damage(0.1f);
-        }
+
     }
 
 

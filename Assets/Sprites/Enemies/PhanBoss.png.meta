@@ -8,6 +8,15 @@ TextureImporter:
   - first:
       213: -288771526963589927
     second: PhanBoss_1
+  - first:
+      213: 638816912039913795
+    second: PhanBoss_2
+  - first:
+      213: -7731158583839832077
+    second: PhanBoss_3
+  - first:
+      213: 3479628254767481074
+    second: PhanBoss_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +110,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
+        y: 139
         width: 151
         height: 127
       alignment: 0
@@ -121,10 +130,10 @@ TextureImporter:
       name: PhanBoss_1
       rect:
         serializedVersion: 2
-        x: 154
-        y: 2
+        x: 160
+        y: 139
         width: 151
-        height: 127
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +143,69 @@ TextureImporter:
       bones: []
       spriteID: 9dc861283d31efbf0800000000000000
       internalID: -288771526963589927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhanBoss_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 139
+        width: 151
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349a6aec8988dd800800000000000000
+      internalID: 638816912039913795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhanBoss_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 139
+        width: 151
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c30cba3865b490800000000000000
+      internalID: -7731158583839832077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhanBoss_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 151
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f004db367f1a4030800000000000000
+      internalID: 3479628254767481074
       vertices: []
       indices: 
       edges: []

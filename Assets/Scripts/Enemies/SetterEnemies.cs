@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class SetterEnemies : MonoBehaviour
 {
@@ -13,12 +14,38 @@ public class SetterEnemies : MonoBehaviour
     [SerializeField] private float maxEnemyCooldown;
     [SerializeField] private SpawnEnemies spawnStats;
 
-    bool roundStarted = true;
+    [SerializeField] private TeleportPlayer tp;
+    [SerializeField] private GameObject globalLight;
+    [SerializeField] private float lightLvl;
+
+    public Transform keyDrop;
+
+    public bool roundStarted = true;
+
+    public bool miniBoss = false;
+    public bool finalBoss = false;
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (col.CompareTag("Player") && roundStarted)
         {
+            if (!miniBoss && !finalBoss)
+            {
+                FindObjectOfType<AudioManager>().Transition("Hall", "Round");
+            }else if (miniBoss)
+            {
+                FindObjectOfType<AudioManager>().Transition("Hall", "Opening Boss");
+                StartCoroutine(PlayBossMusic("Boss Fight"));
+            }
+            else
+            {
+                FindObjectOfType<AudioManager>().Transition("Hall", "Opening Boss");
+                StartCoroutine(PlayBossMusic("Final Boss"));
+            }
+
+            PlayerStats stats = col.gameObject.GetComponent<PlayerStats>();
+            stats.SetIsRunningDown(true);
+
             spawnStats.SetEnemyList(enemies);
             spawnStats.SetEnemyProbs(enemyProbs);
             spawnStats.SetEnemyCounter(enemyCounter);
@@ -26,7 +53,21 @@ public class SetterEnemies : MonoBehaviour
             spawnStats.SetMinEnemyCooldown(minEnemyCooldown);
             spawnStats.SetMaxEnemyCooldown(maxEnemyCooldown);
             spawnStats.SetRoundStarted(roundStarted);
+            spawnStats.SetTp(tp);
             spawnStats.SetRoom(gameObject);
+            spawnStats.SetKeyDrop(keyDrop);
+            spawnStats.spawnedKey = false;
+            spawnStats.miniBoss = miniBoss;
+            roundStarted = false;
+
+            var light = globalLight.GetComponent<Light2D>();
+            light.intensity = lightLvl;     // Oscurecemos la sala como queramos
         }
+    }
+
+    IEnumerator PlayBossMusic(string name)
+    {
+        yield return new WaitForSeconds(7f);
+        FindObjectOfType<AudioManager>().Play(name);
     }
 }
